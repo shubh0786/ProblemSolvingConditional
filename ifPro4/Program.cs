@@ -12,6 +12,29 @@ namespace ifPro4
     {
         static void Main(string[] args)
         {
+
+            Console.Write(" Enter the year");
+            int year = int.Parse(Console.ReadLine());
+
+
+            if (year % 400 == 0)
+
+
+                Console.Write("Year is a leap year: {0}", year);
+
+            else if (year % 100 == 0)
+                Console.Write("Year is a leap year: {0}", year);
+
+            else if (year % 4 == 0)
+                Console.Write("Year is a leap year: {0}", year);
+
+            else Console.Write("Yeare is not a leap year: {0}", year);
+
+
+            Console.ReadLine();
+
+        }
+
+        
         }
     }
-}
