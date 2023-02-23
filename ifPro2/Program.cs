@@ -12,6 +12,26 @@ namespace ifPro2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please add your numer");
+
+            int a = int.Parse(Console.ReadLine());
+
+            int b = a % 2;
+
+
+            if (b==0)
+            {
+                Console.WriteLine("Number is even {0}", a);
+
+
+            }
+            else
+            {
+
+                Console.WriteLine("Numer is odd {0}", a);
+            }
+
+            Console.ReadLine();
         }
     }
 }
